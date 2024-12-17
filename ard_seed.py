@@ -24,7 +24,7 @@ class ARD_SEED:
         return {
             "required": {
                 "max_count": ("INT", {"default": 1}),
-                "seed": ("INT", {"default": 1, "min": 1, "max": 9999999999, "step": 1})
+                "seed": ("INT", {"default": 1, "min": 1, "max": 0xffffffffffffffff, "step": 1})
             }
         }
 

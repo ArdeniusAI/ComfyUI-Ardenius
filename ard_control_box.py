@@ -42,7 +42,7 @@ class ARD_CONTROL_BOX:
                     "steps": ("INT", {"default": 20, "min": 1, "max": 100, "step": 1}),
                     "denoise": ("FLOAT", {"default": 1.0, "min": 0.01, "max": 1.0, "step": 0.01}),
                     "scaler": ("FLOAT", {"default": 1.0, "min": 0.01, "max": 4.0, "step": 0.0001}),
-                    "seed": ("INT", {"default": 1234567891, "min": 1, "max": 9999999999, "step": 1}),
+                    "seed": ("INT", {"default": 1234567891, "min": 1, "max": 0xffffffffffffffff, "step": 1}),
                     "positive_prompt": ("CONDITIONING", {"default": ""}),
                     "negative_prompt": ("CONDITIONING", {"default": ""}),
                     "model": ("MODEL",),
